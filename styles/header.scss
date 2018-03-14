@@ -1,0 +1,29 @@
+@import './responsive.scss';
+@import './colors.scss';
+
+header {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background: url('/images/back.jpg') no-repeat; 
+    .logo{
+      display: flex;
+      justify-content: center;
+      margin-top: 4rem;     
+      img {
+        height: 40rem;
+        width: auto;
+      }
+    }
+    .title {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-top: 4rem;
+      font-family: "Bilbo Swash Caps", cursive;
+      font-style: italic;
+      font-weight: lighter;
+    }
+  }
+}

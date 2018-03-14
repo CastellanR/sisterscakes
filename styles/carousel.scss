@@ -1,0 +1,19 @@
+carousel {
+  @import '..//node_modules/bootstrap/scss/bootstrap.scss';
+  height: 50rem;
+  width: 100%;
+  margin-top: 5rem;
+  background-color: rgb(240,255,255);
+
+  .carousel-inner {
+    display: flex !important;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    img {
+      width: 50%;
+      height: auto;
+    }
+  }
+}
